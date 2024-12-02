@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superrouter Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@1.6.1"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="tsing-font">superrouter</h1>
+        <nav>
+            <ul class="tabs">
+                <li><a href="#overview">Network Overview</a></li>
+                <li><a href="#interface">Interface Configuration</a></li>
+                <li><a href="#firewall">Firewall Management</a></li>
+                <li><a href="#dhcp-dns">DHCP & DNS Management</a></li>
+                <li><a href="#logs">System Logs</a></li>
+                <li><a href="#packages">Package Management</a></li>
+                <li><a href="#qos">QoS & Traffic Shaping</a></li>
+                <li><a href="#vpn">VPN Configuration</a></li>
+                <li><a href="#users">User Management</a></li>
+                <li><a href="#monitoring">Real-Time Monitoring</a></li>
+                <li><a href="#bandwidth-utilization">Bandwidth Utilization</a></li>
+                <li><a href="#connected-devices">Connected Devices</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Network Overview</h2>
+            <div id="overview-content"></div>
+        </section>
+        <section id="interface">
+            <h2>Interface Configuration</h2>
+            <div id="interface-content"></div>
+        </section>
+        <section id="firewall">
+            <h2>Firewall Management</h2>
+            <div id="firewall-content"></div>
+        </section>
+        <section id="dhcp-dns">
+            <h2>DHCP & DNS Management</h2>
+            <div id="dhcp-dns-content"></div>
+        </section>
+        <section id="logs">
+            <h2>System Logs</h2>
+            <div id="logs-content"></div>
+        </section>
+        <section id="packages">
+            <h2>Package Management</h2>
+            <div id="packages-content"></div>
+        </section>
+        <section id="qos">
+            <h2>QoS & Traffic Shaping</h2>
+            <div id="qos-content"></div>
+        </section>
+        <section id="vpn">
+            <h2>VPN Configuration</h2>
+            <div id="vpn-content"></div>
+        </section>
+        <section id="users">
+            <h2>User Management</h2>
+            <div id="users-content"></div>
+        </section>
+        <section id="monitoring">
+            <h2>Real-Time Monitoring</h2>
+            <div id="monitoring-content"></div>
+        </section>
+        <section id="bandwidth-utilization">
+            <h2>Bandwidth Utilization</h2>
+            <div id="bandwidth-chart"></div>
+        </section>
+        <section id="connected-devices">
+            <h2>Connected Devices</h2>
+            <ul id="devices-list"></ul>
+        </section>
+    </main>
+</body>
+</html>
